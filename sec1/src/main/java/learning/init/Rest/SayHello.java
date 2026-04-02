@@ -9,7 +9,11 @@ public class SayHello {
     @GetMapping("/")
     public String SayHello()
     {
-        return "Hello Vishnu!";
+        return "Hello Swathi!";
     }
 
+    @GetMapping("/bye")
+    public String SayBye() {return "Bye Swathi kannukutty!";}
+
 }
+
