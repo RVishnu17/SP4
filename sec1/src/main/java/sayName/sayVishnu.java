@@ -22,6 +22,6 @@ public class sayVishnu implements SayName{
     @PreDestroy
     public void getStatusPD()
     {
-        System.out.println( "Vishnu PreDestroy");;
+        System.out.println( "Vishnu PreDestry");;
     }
 }
