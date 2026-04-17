@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(
 		scanBasePackages = {
 				"sayName",
-				"learning.init"
+				"learning.init",
+				"config"
 		}
 )
 public class InitApplication {
